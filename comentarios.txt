@@ -31,11 +31,11 @@ rm nomearquivo    ## Remove um arquivo. (Para arquivos não é necessário a adi
 
 ############ Comandos git úteis:
 
-git remote add orign https:github.com/profile/repo.git    ## Vincular o repositorio do git com o remote .
+git remote add orign https:github.com/profile/repo.git    ## Vincular o repositório do git com o remote .
 git fetch     ## Sincroniza seu diretório atual com os arquivos do repositório do git .
 
-git add .    ## Adicionar arquivos a serem enviados pro repositorio .
-git add -A   ##  Adicionar arquivos a serem enviados pro repositorio .
+git add .    ## Adicionar arquivos a serem enviados pro repositório .
+git add -A   ##  Adicionar arquivos a serem enviados pro repositório .
 git commit -m 'mensagem'    ## Realizar o commit dos arquivos adicionados ao repo .('Um ponto na história do projeto')
 
 git push origin branchName     ## Enviar o que está no commit para uma branch do projeto. (-u serve para falar que a branchName será a default do projeto, logo nao precisa mais de *git push origin master* apenas *git push*)
@@ -46,6 +46,11 @@ git checkout -b branchName  ## Cria e entra em uma branch .
 git checkout -b branchFilho branchPai   ## Cria uma branch cópia da branch pai e entra na branch .
 git branch -d branchName    ## Deleta a branch do remote .
 git merge branchName      ## Reflete tudo que existe na branchName dentro da branch atual. 
+
+git remote set-url origin git@github.com:thlindustries/aulas-rocket-seat.git   ## Troca a url do repositório .
+
+git rebase (Aprender a usar isso !) .
+
 
 
 
