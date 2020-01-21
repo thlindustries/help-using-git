@@ -4,6 +4,8 @@
 'fix: correção de bugs'
 'feature: nova funcionalidade'
 
+!! É esperado que os commits sejam criados após a finalização de uma nova funcionalidade/fix .(Evitar commits desnecessários)
+
 ############ Comandos terminal úteis:
 
 mkdir nomePasta    ## Cria uma pasta no diretório atual .
