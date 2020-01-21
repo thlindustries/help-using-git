@@ -3,3 +3,24 @@
 'chore: expansão de algum detalhe'
 'fix: correção de bugs'
 'feature: nova funcionalidade'
+
+
+############ Comandos úteis:
+
+git remote add orign https:github.com/profile/repo.git    ## Vincular o repositorio do git com o remote .
+
+git add .    ## Adicionar arquivos a serem enviados pro repositorio .
+git add -A   ##  Adicionar arquivos a serem enviados pro repositorio .
+git commit -m 'mensagem'    ## Realizar o commit dos arquivos adicionados ao repo .('Um ponto na história do projeto')
+
+git push origin branchName     ## Enviar o que está no commit para uma branch do projeto. (-u serve para falar que a branchName será a default do projeto, logo nao precisa mais de *git push origin master* apenas *git push*)
+git pull origin branchName    ## Baixar a branch. 
+
+git checkout branchName     ## Entra em uma branch
+git checkout -b branchName  ## Cria e entra em uma branch
+git checkout -b branchFilho branchPai   ## Cria uma branch cópia da branch pai e entra na branch
+git branch -d branchName    ## Deleta a branch do remote
+git merge branchName      ## Une a branchName com a branch atual
+
+
+
