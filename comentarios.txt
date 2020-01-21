@@ -48,6 +48,7 @@ git branch -d branchName    ## Deleta a branch do remote .
 git merge branchName      ## Reflete tudo que existe na branchName dentro da branch atual. 
 
 git remote set-url origin git@github.com:thlindustries/aulas-rocket-seat.git   ## Troca a url do repositório .
+git remote -v    ## Verifica a URL do remote .
 
 git rebase (Aprender a usar isso !) .
 
