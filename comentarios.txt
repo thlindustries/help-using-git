@@ -7,6 +7,15 @@
 !! É esperado que os commits sejam criados após a finalização de uma nova funcionalidade/fix .(Evitar commits desnecessários)
 !! Após a finalização do desenvolvimento na branch é necessário criar um pull request lá no git e depois dar um merge pull request .(Isso facilita a documentação e o backup caso necessário)
 
+
+############ Fluxos no git
+|
+|-----> Pull requests --> Closed --> Revert  ## Fluxo para reverter um pull request da master .
+
+|
+|-----> Create pull request --> Merge pull request --> Delete branch  ## Fluxo para juntar branchs e deletar a branch antiga . 
+
+
 ############ Comandos terminal úteis:
 
 mkdir nomePasta    ## Cria uma pasta no diretório atual .
@@ -23,6 +32,7 @@ rm nomearquivo    ## Remove um arquivo. (Para arquivos não é necessário a adi
 ############ Comandos git úteis:
 
 git remote add orign https:github.com/profile/repo.git    ## Vincular o repositorio do git com o remote .
+git fetch     ## Sincroniza seu diretório atual com os arquivos do repositório do git .
 
 git add .    ## Adicionar arquivos a serem enviados pro repositorio .
 git add -A   ##  Adicionar arquivos a serem enviados pro repositorio .
@@ -35,7 +45,7 @@ git checkout branchName     ## Entra em uma branch .
 git checkout -b branchName  ## Cria e entra em uma branch .
 git checkout -b branchFilho branchPai   ## Cria uma branch cópia da branch pai e entra na branch .
 git branch -d branchName    ## Deleta a branch do remote .
-git merge branchName      ## Une a branchName com a branch atual. 
+git merge branchName      ## Reflete tudo que existe na branchName dentro da branch atual. 
 
 
 
