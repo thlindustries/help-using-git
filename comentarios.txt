@@ -3,6 +3,7 @@
 'chore: expansão de algum detalhe'
 'fix: correção de bugs'
 'feature: nova funcionalidade'
+'add: adicionando coisas novas'
 
 !! É esperado que os commits sejam criados após a finalização de uma nova funcionalidade/fix .(Evitar commits desnecessários)
 !! Após a finalização do desenvolvimento na branch é necessário criar um pull request lá no git e depois dar um merge pull request .(Isso facilita a documentação e o backup caso necessário)
