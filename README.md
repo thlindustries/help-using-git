@@ -1,5 +1,7 @@
 # Comandos para uso básico do git via terminal
 
+>***Para usuários de windows, recomendo que baixem o git bash:***
+>[git bash](https://gitforwindows.org/)
 ### **Boas práticas sobre commits:**
 
 - **chore**: expansão de algum detalhe .
