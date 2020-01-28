@@ -31,9 +31,9 @@
 >   - *touch nomearquivo*
 >+ **Lista os arquivos do diretório atual .**
 >   - *ls*
->+ **Remove uma pasta (para remover pastas é >necessário o '-r') .**
+>+ **Remove uma pasta (para remover pastas é necessário o '-r') .**
 >   - *rm nomePasta -r*
->+ **Remove um arquivo. (Para arquivos não é >necessário a adição do '-r') .**
+>+ **Remove um arquivo. (Para arquivos não é necessário a adição do '-r') .**
 >   - *rm nomearquivo*
 >+ **Move uma pasta de um diretório a outro .**
 >   - *mv nomeDiretorio nomeNovoDiretorio*
@@ -46,15 +46,15 @@
 >+ **Sincroniza seu diretório atual com os arquivos do repositório do git .**
 >   - *git fetch*
 >+ **Adicionar arquivos a serem enviados pro repositório .**
->   - *git add . *
+>   - *git add .*
 >+ **Adicionar arquivos a serem enviados pro repositório .**
->   - *git add -A *
+>   - *git add -A*
 >+ **Realizar o commit dos arquivos adicionados ao repo .('Um ponto na história do projeto') .**
->   - *git commit -m 'mensagem' *
+>   - *git commit -m 'mensagem'*
 >+ **Enviar o que está no commit para uma branch do projeto. (-u serve para falar que a branchName será a default do projeto, logo nao precisa mais de *git push origin master* apenas *git push*) .**
 >   - *git push origin branchName*
 >+ **Baixar a branch .**
->   - *git pull origin branchName *
+>   - *git pull origin branchName*
 >+ **Entra em uma branch .**
 >   - *git checkout branchName*
 >+ **Cria e entra em uma branch .**
