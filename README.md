@@ -69,6 +69,8 @@
 >   - *git remote set-url origin git@github.com:thlindustries/aulas-rocket-seat.git*
 >+ **Verifica a URL do remote .**
 >   - *git remote -v*
+>+ **Desfaz as mudanças realizadas .**
+>   - *git checkout -- .*
 >+ **Aprendendo a usar ... !**
 >   - *git rebase*
 >+ **Mostra o histórico de commits .**
